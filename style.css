@@ -265,10 +265,52 @@ main{
     align-items: center;
     text-align: center;
     justify-content: center;
-    gap:1rem;
- 
+    gap:1rem;   
+}
+
+/* Run extra mile section */
+#run-extra-mile{
+    width:85%;
+    height:100%;
+    margin-left:11.875rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:6.5rem;
+    background: rgb(34, 34, 34);
+    border-radius:1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+.extra-mile{
+    width:50%;
+    padding:3rem;
+
+}
+.extra-mile-head{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    width:100%;
+    margin-bottom:1rem;
+}
+.extra-mile-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    width:100%;
+    margin-bottom:2rem;
+
+}
+.extra-mile-image{
+    height: 19.5rem;
+    width:22.875rem;
+    border-radius:1.2rem;
+    margin-left:11rem;
     
 }
+
  @media screen and (min-width:577px) {
     .gym-navbar > img{
         display: none;      
@@ -278,16 +320,20 @@ main{
 
 @media  screen and (max-width:576px) {
     .gym-logo > a > li{
-        margin-left: 1rem;
+        margin-left: 2.9rem;
     }
 
     .hero{
         grid-template-columns: repeat(1, 1fr);
         margin-left:2rem;
     }
+    .hero-description-head{
+        margin-left:1.5rem;
+    }
     .hero-description-paragraph{
         font-size: 1.5rem;
-        width:500px;
+        width:400px;
+        margin-left:1.5rem;
     }
     .navbar{
         margin-left: 1rem;
@@ -308,27 +354,28 @@ main{
       
     }
     .button-hero-section{
-        width: 500px;       
+        width: 410px;
+        margin-left: 1.5rem;      
     }
     .hero-description-button1{
-        padding:1.5rem;
-        font-size:1.5rem;
+        padding:1rem;
+        font-size:1.2rem;
     }
     .hero-description-button2{
         padding:1.5rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .hero-image > img{
-        margin-left:150px;
+        margin-left:6rem;
     }
     .hero-image-card1{
-        margin-left:22rem;
+        margin-left:18rem;
         margin-top:-25rem;
         height:4rem;
         
     }
     .hero-image-card2{
-        margin-left:10rem;
+        margin-left:4rem;
         height:4rem;
         margin-top:3rem;
     }
@@ -352,9 +399,9 @@ main{
     .change-habit-title{
         text-align: center;
         width: 100%;
-        margin-top:9.3rem;
-        margin-left:-13rem;
-        zoom:120%;
+        margin-top:7.4rem;
+        margin-left:-12.6rem;
+        zoom:150%;
         
     }
     .habit-card{
@@ -363,12 +410,40 @@ main{
         gap:2rem;
         justify-content: center;
         align-items: center;
-        width:100%;
+        width:80%;
         margin-top:-2rem;
         zoom: 150%;
     
     }
     #change-your-habit{
         margin-top:3rem;
+    }
+    #run-extra-mile{
+        width:80%;
+        height:100%;
+        margin-left:1.5rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top:6.5rem;
+        background: rgb(34, 34, 34);
+        border-radius:1.2rem;
+        justify-content: center;
+        align-items: center;   
+    }
+    .extra-mile-image{
+        height: 19.5rem;
+        width:22.875rem;
+        border-radius:1.2rem;
+        margin-left:3rem;
+        margin-bottom:1rem;
+        
+    }
+    .extra-mile{
+        width:70%;
+        padding:3rem;
+        margin-left:0.5rem;   
+    }
+    .extra-mile > button{
+        width:20rem;
     }
 }
