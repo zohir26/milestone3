@@ -17,6 +17,10 @@ header{
     height:100%;
     margin-left:11.875rem;
 }
+.gym-navbar > img{
+    width:2.5rem;
+   
+}
 .logo-part{
 
 }
@@ -121,6 +125,10 @@ ul{
     margin-right:1rem;
     cursor: pointer;
 }
+.hero-description-button1:hover{
+    background-color: white;
+    color:rgb(230, 83, 60)
+}
 .hero-description-button2{
     color:black;
     font-family: Inter;
@@ -131,7 +139,12 @@ ul{
     border-color:white;
     cursor: pointer;
 }
-
+.hero-description-button2:hover{
+    background-color: rgb(230, 83, 60) ;
+    color:white;
+    border:none;
+    transition: 0.5s ease-in 0.5s;
+}
 
 .hero-image > img{
     height:27.25rem; 
@@ -194,7 +207,74 @@ ul{
     font-weight: 400;
 
 }
+/* change your habit section */
+main{
+    width:100%;
+    height:100%;
+    background-color: black ;
+}
+#change-your-habit{
+    width:85%;
+    height:100%;
+    margin-left:11.875rem;
+    margin-top:2.2rem;
+    
+}
+.change-habit-title{
+    display: grid;
+    margin-left:-5rem;
+    padding:5rem;
+    
+}
+.change-habit-title-head{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom:1rem;
+    text-align: center;
+
+}
+.change-habit-title-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom:2rem;
+    text-align: center;
+}
+.change-your-habit-card-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.change-your-habit-card-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.98rem;
+    font-weight: 400;
+}
+.change-your-habit-card-img{
+    border-radius:50%;
+}
+.habit-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);   
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap:1rem;
  
+    
+}
+ @media screen and (min-width:577px) {
+    .gym-navbar > img{
+        display: none;      
+    }
+    
+ }
 
 @media  screen and (max-width:576px) {
     .gym-logo > a > li{
@@ -213,8 +293,19 @@ ul{
         margin-left: 1rem;
 
     }
-    .gym-navbar{
-        display: none;
+    .gym-navbar >a{
+        display:none ;
+    }
+    .gym-navbar > img{
+    
+        background-color: white;
+        margin-top:1rem;
+        margin-left:15rem;
+        width: 10%;
+        cursor: pointer;
+       
+        
+      
     }
     .button-hero-section{
         width: 500px;       
@@ -257,5 +348,27 @@ ul{
     }
     .hero-image-card-number{
         font-size:2rem;
+    }
+    .change-habit-title{
+        text-align: center;
+        width: 100%;
+        margin-top:9.3rem;
+        margin-left:-13rem;
+        zoom:120%;
+        
+    }
+    .habit-card{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left:-6rem;
+        gap:2rem;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-top:-2rem;
+        zoom: 150%;
+    
+    }
+    #change-your-habit{
+        margin-top:3rem;
     }
 }
