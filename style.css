@@ -268,6 +268,70 @@ main{
     gap:1rem;   
 }
 
+/*challenge-section*/
+#challenge{
+    width: 85%;
+    height:100%;
+    margin-left:11.875rem;
+    margin-top:2.2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+    font-family:Inter;
+}
+.challenge-image > img{
+    border-radius: 3rem;
+}
+.challenge-intro-head{
+    color: White;
+    font-weight: 900;
+    font-family: Inter;   
+    margin-bottom:2rem;
+    margin-top: 6rem;
+}
+.challenge-intro-para{
+    color: rgb(140, 132, 132);
+    font-weight: 500;
+    font-family: Inter;
+    margin-bottom:2rem;
+}
+.challenge-intro-button,.challenge-card-button{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding:10px;
+    margin-right:1rem;
+    cursor: pointer;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    border:none;
+}
+.challenge-card1{
+    background-color:rgb(120, 126, 133) ;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding:1rem;
+}
+.challenge-card2{
+    background-color:rgb(120, 126, 133) ;
+    border-radius: 1rem;
+    padding:1rem;
+}
+.challenge-card-head{
+    color: White;
+    font-weight: 900;
+    font-family: Inter;  
+    margin-bottom: 1rem; 
+}
+.challenge-card-para{
+    color: rgb(57, 52, 52);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
 /* Run extra mile section */
 #run-extra-mile{
     width:85%;
@@ -803,6 +867,14 @@ footer > .final-part{
     }
     #change-your-habit{
         margin-top:3rem;
+    }
+    #challenge{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin:0 auto;
+    }
+    .challenge-image{
+        margin-left:3.5rem;
     }
     #run-extra-mile{
         width:80%;
