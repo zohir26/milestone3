@@ -272,22 +272,24 @@ main{
 #challenge{
     width: 85%;
     height:100%;
-   margin:0 auto;
+    margin:0 auto;
     margin-top:2.2rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:1rem;
     font-family:Inter;
+    
 }
 .challenge-image > img{
     border-radius: 3rem;
+    
 }
 .challenge-intro-head{
     color: White;
     font-weight: 900;
     font-family: Inter;   
     margin-bottom:2rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 .challenge-intro-para{
     color: rgb(140, 132, 132);
@@ -314,6 +316,7 @@ main{
     margin-bottom: 1rem;
     border-radius: 1rem;
     padding:1rem;
+    margin-top:3rem;
 }
 .challenge-card2{
     background-color:rgb(120, 126, 133) ;
@@ -458,7 +461,7 @@ main{
     "exercise4 exercise5 exercise5 exercise6" ;
     width:80%;   
     gap:1rem;
-    margin-left:12rem;  
+    margin: 0 auto;  
 }
 .img-cap1{
     position: absolute;
@@ -484,7 +487,7 @@ main{
     margin-left:1rem;
     font-family: Inter;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bolder;
     color:black;
 }
 .img-cap4{
@@ -511,7 +514,7 @@ main{
     margin-left:1rem;
     font-family: Inter;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bolder;
     color:black;
 }
 
